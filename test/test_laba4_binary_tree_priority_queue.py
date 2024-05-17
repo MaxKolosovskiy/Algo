@@ -1,5 +1,5 @@
 import unittest
-from src.binary_tree_priority_queue import *
+from src.laba4_binary_tree_priority_queue import *
 
 class TestTreePriority(unittest.TestCase):
     def test_insert(self):

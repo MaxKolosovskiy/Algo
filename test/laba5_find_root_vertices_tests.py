@@ -1,5 +1,5 @@
 import unittest
-from main import *
+from src.laba5_find_root_vertices import *
 
 class TestFindRootVertices(unittest.TestCase):
     def test_single_root_vertex(self):
