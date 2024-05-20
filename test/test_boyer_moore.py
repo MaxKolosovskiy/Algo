@@ -1,5 +1,5 @@
 import unittest
-from src.laba7_def_Boyer_Moore import *
+from src.boyer_moore import *
 
 class TestBoyerMoore(unittest.TestCase):
     def test_single_match(self):

@@ -1,5 +1,5 @@
 import unittest
-from src.laba8_kruskals_algorithm import *
+from src.kruskals_algorithm import *
 
 
 class TestUnionFind(unittest.TestCase):

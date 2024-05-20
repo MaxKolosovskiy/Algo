@@ -1,5 +1,5 @@
 import unittest
-from src.laba2 import main_paint_time
+from src.painters_alg import main_paint_time
 
 class TestMinPaintTime(unittest.TestCase):
     def test_example(self):
