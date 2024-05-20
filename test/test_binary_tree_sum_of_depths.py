@@ -1,5 +1,5 @@
 import unittest
-from src.laba3_binary_tree_sum_of_depths import *
+from src.binary_tree_sum_of_depths import *
 
 class TestSumOfDepths(unittest.TestCase):
     def test_sum_of_depths(self):

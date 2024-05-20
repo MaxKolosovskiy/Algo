@@ -49,6 +49,6 @@ def write_result_to_file(result, file_name):
             file.write(str(result))
 
 if __name__ == "__main__":
-    graph = read_graph_from_file("input.txt")
+    graph = read_graph_from_file("../resurses/input_v2.txt")
     root_vertices = find_root_vertices(graph)
-    write_result_to_file(root_vertices, "output.txt")
+    write_result_to_file(root_vertices, "../resurses/output_v2.txt")

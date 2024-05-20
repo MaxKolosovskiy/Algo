@@ -1,4 +1,4 @@
-from src.laba7_def_Boyer_Moore import *
+from src.boyer_moore import *
 
 haystack = "this is a simple example"
 needle = "example"

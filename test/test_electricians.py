@@ -1,5 +1,5 @@
 import unittest
-from src.laba9_electricians import *
+from src.electricians import *
 
 class TestWireLengthCalculator(unittest.TestCase):
     def test_calculate_wire_length_example_1(self):

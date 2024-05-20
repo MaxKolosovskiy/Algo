@@ -5,15 +5,15 @@ def calculate_length(heights, w):
     max_length = 0
     n = len(heights)
 
-    # All combinations for height
-    # Product decart product equivalent to the nested cycle FOR
-    for combo in itertools.product(*[range(1, h + 1) for h in heights]):
-        # We calculate the length of the wire for the current combination of the heights of the supports
+    #ALL combinations for height
+    #product decart product equivalent to the nested cycle FOR
+    for decart in itertools.product(*[range(1, h + 1) for h in heights]):
+        #we calculate the length of the wire for the current combination of the heights of the supports
         length = 0
         for i in range(1, n):
-            length += math.sqrt((w ** 2) + ((combo[i] - combo[i - 1]) ** 2))
+            length += math.sqrt((w ** 2) + ((decart[i] - decart[i - 1]) ** 2))
 
-        # We compare the found length with the maximum length and, if it is greater, we update the maximum length
+        #srch max
         max_length = max(max_length, length)
 
     return round(max_length, 2)
@@ -30,6 +30,6 @@ def write_output(file_path, result):
         file.write(str(result) + '\n')
 
 if __name__ == "__main__":
-    heights, w = read_input('input.txt')
+    heights, w = read_input('../resurses/input_v2.txt')
     result = calculate_length(heights, w)
-    write_output('output.txt', result)
+    write_output('../resurses/output_v2.txt', result)

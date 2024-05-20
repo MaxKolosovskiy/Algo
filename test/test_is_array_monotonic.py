@@ -1,5 +1,5 @@
 import unittest
-from src.laba1_is_array_monotonic import is_array_monotonic
+from src.is_array_monotonic import is_array_monotonic
 
 class Testlab1(unittest.TestCase):
     def test_increasing(self):

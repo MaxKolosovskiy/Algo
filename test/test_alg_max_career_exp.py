@@ -1,5 +1,5 @@
 import unittest
-from src.laba6_alg_max_career_exp import *
+from src.alg_max_career_exp import *
 class TestMaxExperience(unittest.TestCase):
     def test_example_1(self):
         levels = 4
